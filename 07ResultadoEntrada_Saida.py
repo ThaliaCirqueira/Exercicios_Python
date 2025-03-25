@@ -1,13 +1,9 @@
 
-# 1 Solicite ao usuário que insira seu nome e imprima uma mensagem de saudação.
-nome = input("Digite seu nome: ")
-# 2 Solicite a idade do usuário e imprima uma mensagem indicando se é maior de idade.
-idade = int(input("Insira sua idade: "))
+# 7 Solicite a altura e o peso do usuário. Calcule o IMC (Índice de Massa Corporal) e imprima o resultado.
 
+altura = float(input("Insira sua altura (em metros): "))
+peso = float(input("Insira seu peso (em kg): "))
 
-print("Olá", nome, "Que sua jornada aqui seja repleta de Luz! Bem vindo(a)!")
+imc = peso / (altura ** 2)
 
-if idade >= 18:
-    print("Você é maior de idade!")
-else:
-    print("Você não é maior de idade")
+print(f"Seu IMC é: {imc:.2f}")
