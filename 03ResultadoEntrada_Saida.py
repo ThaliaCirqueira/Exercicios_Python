@@ -1,5 +1,5 @@
 
-# 2 Solicite a idade do usuário e imprima uma mensagem indicando se é maior de idade.
+# 3 Solicite a idade do usuário e imprima uma mensagem indicando se é maior de idade.
 idade = int(input("Insira sua idade: "))
 
 
