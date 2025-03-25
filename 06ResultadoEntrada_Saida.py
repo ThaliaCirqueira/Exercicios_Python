@@ -1,13 +1,10 @@
 
-# 1 Solicite ao usuário que insira seu nome e imprima uma mensagem de saudação.
-nome = input("Digite seu nome: ")
-# 2 Solicite a idade do usuário e imprima uma mensagem indicando se é maior de idade.
-idade = int(input("Insira sua idade: "))
+# 6 Peça ao usuário para inserir dois números e imprima o resultado da multiplicação entre eles.
+
+numero1 = float(input("Insira o primeiro número: "))
+numero2 = float(input("Insira o Segundo número: "))
+
+multiplicacao = numero1 * numero2
 
 
-print("Olá", nome, "Que sua jornada aqui seja repleta de Luz! Bem vindo(a)!")
-
-if idade >= 18:
-    print("Você é maior de idade!")
-else:
-    print("Você não é maior de idade")
+print(f"A multiplicação de {numero1} por {numero2} é {multiplicacao:.2f}")
