@@ -1,13 +1,9 @@
 
-# 1 Solicite ao usuário que insira seu nome e imprima uma mensagem de saudação.
-nome = input("Digite seu nome: ")
-# 2 Solicite a idade do usuário e imprima uma mensagem indicando se é maior de idade.
-idade = int(input("Insira sua idade: "))
+# 15 Solicite dois números e imprima o resultado da potência do primeiro pelo segundo.
 
+Nmumero1 = float(input("Insira o primeiro número: "))
+Nmumero2 = float(input("Insira o segundo número: "))
 
-print("Olá", nome, "Que sua jornada aqui seja repleta de Luz! Bem vindo(a)!")
+resultado = Nmumero1 ** Nmumero2
 
-if idade >= 18:
-    print("Você é maior de idade!")
-else:
-    print("Você não é maior de idade")
+print(f"O resultado do valor {Nmumero1} elevado à potência de {Nmumero2} é {resultado:.2f}")
