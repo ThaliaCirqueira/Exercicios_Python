@@ -12,7 +12,7 @@ if idade <=12 :
     print("CRIANÇA")
 elif 12 <= idade <= 17 : 
     print("ADOLESCENTE")
-elif 18<= idade <=35 : 
+elif 18 <= idade <=35 : 
     print("ADULTO JOVEM")
 else:
     print("ADULTO")

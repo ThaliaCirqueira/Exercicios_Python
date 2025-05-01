@@ -3,7 +3,7 @@
 
 import math
 
-raio = float(input("Insira o Raio do círculo:"))
+raio = float(input("Insira o Raio do círculo: "))
 
 area = math.pi * (raio ** 2)
 
